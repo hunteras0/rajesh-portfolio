@@ -5,11 +5,7 @@ export const metadata: Metadata = {
   title: "Rajesh Portfolio",
   description: "Futuristic portfolio",
 };
-export const metadata = {
-  verification: {
-    google: "nRFhsVCkAWlS28JJ1IEjIG3N-vt5T_JiGbesgcA",
-  },
-};
+
 
 export default function RootLayout({
   children,
@@ -18,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+  <meta name="google-site-verification" content="nRFhsVCkAWlS28JJ1IEjIG3N-vt5T_JiGbesgcA" />
+</head>
       <body>{children}</body>
     </html>
   );
