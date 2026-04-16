@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Rajesh Portfolio",
   description: "Futuristic portfolio",
 };
+export const metadata = {
+  verification: {
+    google: "nRFhsVCkAWlS28JJ1IEjIG3N-vt5T_JiGbesgcA",
+  },
+};
 
 export default function RootLayout({
   children,
